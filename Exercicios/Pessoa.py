@@ -8,7 +8,7 @@ class Pessoa():
     
     def pessoaCadastrada(self):
         return self.nome, self.idade, self.genero, self.profissao
-    
+
     def verificaIdade(self):
         if self.idade >= 18:
             self.maioridade = 'Sim'
